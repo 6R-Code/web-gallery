@@ -4,7 +4,6 @@ function App() {
 
   return (
     <>
-    
     <div className="App">
 
       <header className="App-header">
@@ -18,17 +17,18 @@ function App() {
           <img src='./logo.jpg' alt='Image'className='App-header-logo'></img>
         </div>
       </header>
+
+
+
+
+
+
+
+
+
+
+
     </div>
-
-
-
-
-
-
-
-
-
-    
     </>
   )
 }
