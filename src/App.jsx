@@ -1,26 +1,28 @@
 import './App.css'
 
+
 function App() {
 
   return (
-    <>
     <div className="App">
 
       <header className="App-header">
         <div className='App-header-left'>
-          <h1>PROJECT 3D</h1>
+          <img src='./logo.jpg' alt='Image'className='App-header-logo'></img>
+          <h1>Web Gallery</h1>
         </div>
         <div className='App-header-right'>
-          <h3>Account</h3>
-          <h3>Product</h3>
-          <h3>Investments</h3>
-          <img src='./logo.jpg' alt='Image'className='App-header-logo'></img>
+          <h4>Account</h4>
+          <h4>Product</h4>
+          <h4>Investments</h4>
         </div>
       </header>
 
-
-
-
+      <div className='Midbutton'>
+        <div className='Button'>
+          Enter
+        </div>
+      </div>
 
 
 
@@ -29,8 +31,9 @@ function App() {
 
 
     </div>
-    </>
   )
 }
+
+
 
 export default App
