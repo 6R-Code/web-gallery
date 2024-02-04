@@ -19,9 +19,9 @@ function App() {
       </header>
 
       <div className='Midbutton'>
-        <div className='Button'>
+        <a className='Button' href="https://dribbble.com/">
           Enter
-        </div>
+        </a>
       </div>
 
 
