@@ -83,3 +83,12 @@ body {
   background-color: #E94560;
   transition-duration: 0.4s;
 }
+
+
+.App-3DModel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
