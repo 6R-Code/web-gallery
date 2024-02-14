@@ -21,12 +21,6 @@ function App() {
         </div>
       </header>
 
-      <div className='Midbutton'>
-        <a className='Button' href="https://dribbble.com/">
-          Enter
-        </a>
-      </div>
-
       
       <div className="App-3DModel">
         <Canvas>
@@ -35,6 +29,14 @@ function App() {
           <Cylinder3d position={[-1.2, 0, 0]} />
           <Cylinder3d position={[1.2, 0, 0]} />
         </Canvas>
+      </div>
+
+
+
+      <div className='Midbutton'>
+        <a className='Button' href="https://dribbble.com/">
+          Enter
+        </a>
       </div>
 
 

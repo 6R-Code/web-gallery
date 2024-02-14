@@ -17,8 +17,8 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 @media screen and (max-width: 640px) {
   .App-header {
@@ -58,6 +58,19 @@ body {
 
 
 
+
+.App-3DModel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+
+
 .Midbutton {
   display: flex;
   align-items: center;
@@ -82,13 +95,4 @@ body {
 .Button:hover {
   background-color: #E94560;
   transition-duration: 0.4s;
-}
-
-
-.App-3DModel {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
