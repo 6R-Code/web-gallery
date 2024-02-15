@@ -11,7 +11,7 @@ function App() {
       <header className="App-header">
         <div className='App-header-left'>
           <img src='./logo.jpg' alt='Image'className='App-header-logo'></img>
-          <h1>Web Gallery</h1>
+          <h1>WEB GALLERY</h1>
         </div>
         <div className='App-header-right'>
           <h4>Account</h4>
