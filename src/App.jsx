@@ -1,5 +1,4 @@
 import './App.css'
-import React from 'react'
 import { Canvas } from "@react-three/fiber";
 import Cylinder3d from "./component/Cylinder3d";
 
