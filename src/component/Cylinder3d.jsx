@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { useFrame } from "@react-three/fiber";
- 
+
 function Cylinder3d(props) {
   // This reference gives us direct access to the THREE.Mesh object
   const ref = useRef();
