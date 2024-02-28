@@ -22,7 +22,7 @@ function Cylinder3d(props) {
       <cylinderGeometry args={[1, 1, 3]} />
       <meshStandardMaterial
         wireframe={props.wireframe}
-        color={hovered ? "white" : "#E94560"}
+        color={hovered ? "orange" : "#E94560"}
       />
     </mesh>
   );
