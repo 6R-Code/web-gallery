@@ -1,6 +1,8 @@
 import './App.css'
 import { Canvas } from "@react-three/fiber";
 import Cylinder3d from "./component/Cylinder3d";
+import Cylinder3d2 from "./component/Cylinder3d2";
+import { OrbitControls } from '@react-three/drei';
 
 
 function App() {
@@ -20,15 +22,19 @@ function App() {
         </div>
       </header>
 
-      
-      <div className="App-3DModel">
-        <Canvas>
-          <pointLight position={[10, 10, 10]} />
-          <ambientLight />
-          <Cylinder3d position={[-1.2, 0, 0]} />
-          <Cylinder3d position={[1.2, 0, 0]} />
-        </Canvas>
+      <div className='App-3DModel-container'>
+        <div className="App-3DModel">
+          <Canvas>
+            <pointLight position={[0, 0, 3]}intensity={10} />
+            <pointLight position={[0, 0, -3]}intensity={10} />
+            <ambientLight />
+            <OrbitControls />
+            <Cylinder3d position={[-1.2, 0, 0]} />
+            <Cylinder3d2 position={[1.2, 0, 0]} />
+          </Canvas>
+        </div>
       </div>
+
 
 
 
